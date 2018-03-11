@@ -1,0 +1,23 @@
+{
+  "name": "css-secret",
+  "version": "1.0.0",
+  "description": "",
+  "main": "$$.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9aoyang/css-secret.git"
+  },
+  "author": "9aoyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9aoyang/css-secret/issues"
+  },
+  "homepage": "https://github.com/9aoyang/css-secret#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
