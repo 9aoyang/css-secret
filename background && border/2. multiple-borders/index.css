@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+}
+
+div {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-56%);
+  width: 200px;
+  height: 150px;
+  background: #123;
+  box-shadow: 0 0 0 10px #456,
+              0 0 0 20px #789,
+              0 3px 6px 20px rgba(0, 0, 0, .6);
+}
