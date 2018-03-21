@@ -1,0 +1,26 @@
+p {
+  margin: 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.picture {
+  margin-left: 2em;
+  width: 120px;
+}
+
+.picture:nth-of-type(1) {
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.picture:nth-of-type(1) img {
+  transform: rotate(-45deg) scale(1.42);
+}
+
+.picture:nth-of-type(2) img {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
