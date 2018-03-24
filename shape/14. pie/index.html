@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title></title>
+</head>
+
+<body>
+  <p>pie-animated</p>
+  <div class="pie" style="animation-delay: -0s">0%</div>
+  <div class="pie" style="animation-delay: -20s">20%</div>
+  <div class="pie" style="animation-delay: -40s">40%</div>
+  <div class="pie" style="animation-delay: -60s">60%</div>
+  <div class="pie" style="animation-delay: -80s">80%</div>
+  <div class="pie" style="animation-delay: -99.99s">100%</div>
+  <div class="pie"></div>
+  <p>pie-svg</p>
+  <div class="pie-svg">
+    <svg viewBox="0 0 32 32">
+      <title>20%</title>
+      <circle r="16" cx="16" cy="16" stroke-dasharray="20 100"></circle>
+    </svg>
+  </div>
+  <div class="pie-svg">
+    <svg viewBox="0 0 32 32">
+      <title>20%</title>
+      <circle r="16" cx="16" cy="16" stroke-dasharray="60 100"></circle>
+    </svg>
+  </div>
+  <div class="pie-svg animated">
+    <svg viewBox="0 0 32 32">
+      <title>60%</title>
+      <circle r="16" cx="16" cy="16" stroke-dasharray="20 100"></circle>
+    </svg>
+  </div>
+</body>
+
+</html>
