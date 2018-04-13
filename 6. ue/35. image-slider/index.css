@@ -19,8 +19,12 @@
   position: absolute;
   left: 0;
   bottom: 10px;
-  width: 100%;
+  width: 50%;
   margin: 0;
+  transform: scale(2);
+  transform-origin: left bottom;
+  filter: contrast(.5);
+  mix-blend-mode: luminosity;
 }
 
 .slider1 > div {
