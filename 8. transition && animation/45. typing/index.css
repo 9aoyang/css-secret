@@ -1,0 +1,19 @@
+@keyframes typing {
+  from { width: 0 };
+}
+
+@keyframes caret {
+  50% { border-color: currentColor }
+}
+
+h1 {
+  font: bold 200% Consolas, Monaco, monospace;
+	/*width: 8.25em;*/
+  width: 15ch;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .05em solid transparent;
+  animation: typing 6s steps(15),
+             caret 1s steps(1) infinite;
+}
+
