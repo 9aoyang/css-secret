@@ -1,0 +1,15 @@
+@keyframes panoramic {
+  to { background-position: 100% 0; }
+}
+
+.panoramic {
+  width: 200px; height: 150px;
+  background: url('panoramic.jpg');
+  background-size: auto 100%;
+  animation: panoramic 6s infinite linear alternate;
+  animation-play-state: paused;
+}
+
+.panoramic:hover {
+  animation-play-state: running;
+}
